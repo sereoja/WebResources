@@ -35,7 +35,7 @@ p {font: 100%; font-family: sans-serif;}
 
 
 /*media query*/
-@media (max-width: 433px) {
+@media (max-width: 500px) {
     body {
         background-color: #000000;
 		color:#FFFFFF;
@@ -45,7 +45,7 @@ p {font: 100%; font-family: sans-serif;}
     }
 }
 
-@media (min-width:434px ) and (max-width: 767px) {
+@media (min-width:501px ) and (max-width: 767px) {
     body {
         background-color: #D3D3D3;
         color: #000000;
