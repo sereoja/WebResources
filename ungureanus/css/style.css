@@ -31,4 +31,36 @@ h4 {font: 100%; font-weight: bold; font-family: sans-serif;}
 h5 {font: 100%; font-style: italic; font-family: sans-serif;}
 h6 {font: 170%; font-variant: small-caps; font-family: sans-serif;}
 p {font: 100%; font-family: sans-serif;}
-li:nth-child(odd){background-color: #99ccff}
+
+
+
+/*media query*/
+@media (max-width: 433px) {
+    body {
+        background-color: #000000;
+		color:#FFFFFF;
+    }
+    img {
+        padding:15px;
+    }
+}
+
+@media (min-width:434px ) and (max-width: 767px) {
+    body {
+        background-color: #D3D3D3;
+        color: #000000;
+    }
+
+    ol, ul {
+        list-style: none;
+    }
+}
+@media (min-width:768px){
+    body{
+        background-color:white;
+		color: #000000;
+    }
+    .myName{
+        font-size:48px;
+    }
+}
