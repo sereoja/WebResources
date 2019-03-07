@@ -2,12 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\assets",
-    "\\config",
     "\\tasks",
     "\\views",
     "\\views\\layouts",
     "\\views\\pages"
   ],
-  "SelectedNode": "\\views\\layouts",
+  "SelectedNode": "\\views\\pages\\assignmentpage.ejs",
   "PreviewInSolutionExplorer": false
 }
