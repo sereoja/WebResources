@@ -21,10 +21,10 @@ module.exports.routes = {
 
   '/': { view: 'pages/homepage' },
   'get /home': { view: 'pages/homepage' },
-  'get /review': { view: 'pages/reviewpage' },
+  'get /about': { view: 'pages/aboutpage' },
   'get /resources': { view: 'pages/resourcepage' },
-  'get /assignment': { view: 'pages/assignmentpage' },
-  'get /midterm': { view: 'pages/midtermpage' }
+  'get /news': { view: 'pages/newspage' },
+  'get /contact': { view: 'pages/contactpage' }
 
 
   /***************************************************************************

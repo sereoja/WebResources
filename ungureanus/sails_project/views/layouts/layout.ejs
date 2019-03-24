@@ -1,87 +1,173 @@
 <!DOCTYPE html>
-<html lang="en-us">
-<head>
-    <meta http-equiv="content-type" content="text/html"; charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
-    <meta name="author" content="Sergiu Ungureanu" />
-    <meta name="keywords" content="HTML, CSS, XML, JavaScript" />
-    <title>Sergiu Ungureanu</title>
-      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap-reboot.min.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/styles/style.css" type="text/css" />
-</head>
-<body>
-  <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>iTruckDispatcher</title>
 
-            <a class="navbar-brand" href="home">
-                Responsive Design
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="home">
-                            Home
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="resources">Web Resources</a>
-                    </li>
-                    <!-- Dropdown -->
-                    <li class="nav-item">
-                        <a class="nav-link" href="assignment" >
-                          Assignment 3
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="midterm">Midterm</a>
-                    </li>
-                    <li class="nav-item" id="rev">
-                        <a class="nav-link" href="review">Reviews</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- END Navigation -->
-     <%- body %>
-  <!--SCRIPTS-->
-  <script src="/dependencies/sails.io.js"></script>
-  <script src="/js/bootstrap.bundle.js"></script>
-  <script src="/js/bootstrap.bundle.min.js"></script>
-  <script src="/js/bootstrap.js"></script>
-  <script src="/js/bootstrap.min.js"></script>
-  <script src="/js/clock.js"></script>
-  <script src="/js/javascript.js"></script>
-  <script src="/js/jquery.min.js"></script>
-  <!--SCRIPTS END-->
-  <script src="/js/jquery.min.js"></script>
-    <script src="/js/bootstrap.bundle.min.js"></script>
-    <script src="/js/javascript.js"></script>
- 
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="/styles/font-awesome.min.css">
+	<link rel="stylesheet" href="/styles/jquery.bxslider.css">
+	<link rel="stylesheet" type="/text/css" href="/styles/isotope.css" media="screen" />	
+	<link rel="stylesheet" href="/styles/animate.css">
+	<link rel="stylesheet" href="/js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
+	<link href="/styles/prettyPhoto.css" rel="stylesheet" />
+	<link href="/styles/style.css" rel="stylesheet" />	
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+	<header>		
+		<nav class="navbar navbar-default navbar-static-top" role="navigation">
+			<div class="navigation">
+				<div class="container">					
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse.collapse">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<div class="navbar-brand">
+							<a href="home"><h1><span>i</span>TruckDispatcher</h1></a>
+						</div>
+					</div>
+					
+					<div class="navbar-collapse collapse">							
+						<div class="menu">
+							<ul class="nav nav-tabs" role="tablist">
+								<li role="presentation"><a href="home">Home</a></li>
+								<li role="presentation"><a href="about">About</a></li>
+								<li role="presentation"><a href="resources">Resources</a></li>
+								<li role="presentation"><a href="news">News</a></li>
+								<li role="presentation"><a href="contact">Contact</a></li>						
+							</ul>
+						</div>
+					</div>						
+				</div>
+			</div>	
+		</nav>		
+	</header>
    
-  <!--STYLES-->
-  <link rel="stylesheet" href="/styles/bootstrap-grid.css">
-  <link rel="stylesheet" href="/styles/bootstrap-grid.min.css">
-  <link rel="stylesheet" href="/styles/bootstrap-reboot.css">
-  <link rel="stylesheet" href="/styles/bootstrap-reboot.min.css">
-  <link rel="stylesheet" href="/styles/bootstrap.css">
-  <link rel="stylesheet" href="/styles/bootstrap.min.css">
-  <link rel="stylesheet" href="/styles/importer.css">
-  <link rel="stylesheet" href="/styles/Reset.css">
-  <link rel="stylesheet" href="/styles/style.css">
-  <!--STYLES END-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap-reboot.min.css" />
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="/styles/style.css" type="text/css" />
+ <%- body %>
+	
+	<footer>
+		<div class="footer">
+			<div class="container">
+				<div class="col-md-4">
+					<h2>iTruckDispatcher</h2>
+					<p>Competition for freight is fierce.
+          Safe and on-time delivery is critical to any company’s
+          success and being our driver means we bring our A-Game.
+          iTruckDispatcher gives you tools you need,
+          because in the end of the day a successful career for you starts at here.</p>
+					
+					<ul class="social-network">
+						<li><a href="#" data-placement="top" title="Facebook"><i class="fa fa-facebook fa-1x"></i></a></li>
+						<li><a href="#" data-placement="top" title="Twitter"><i class="fa fa-twitter fa-1x"></i></a></li>
+						<li><a href="#" data-placement="top" title="Linkedin"><i class="fa fa-linkedin fa-1x"></i></a></li>
+						<li><a href="#" data-placement="top" title="Pinterest"><i class="fa fa-pinterest fa-1x"></i></a></li>
+						<li><a href="#" data-placement="top" title="Google plus"><i class="fa fa-google-plus fa-1x"></i></a></li>
+					</ul>
+				</div>
 
-    
-</body>
-<footer></footer>
-
+				<div class="col-md-4">
+					<h3>RECENT News</h3>
+					<ul>
+						<li><a style="color:white" href="news">New Tools to Enhance Driver Pay</a></li><hr>
+						<li><a style="color:white" href="news">Bridging the Communication Gap: By Billy Dotson</a></li><hr>
+						<li><a style="color:white" href="news">The Key to Earning More Miles & Money</a></li><hr>
+						<li><a style="color:white" href="news">Fleet Management for New Drivers</a></li>
+					</ul>
+				</div>
+				
+				<div class="col-md-4">
+					<h3>CONTACT INFO</h3>
+					<ul>
+						<li><i class="fa fa-home fa-2x"></i>&nbsp&nbsp3000 NE 4th St, Renton, WA 98056</li><hr>
+						<li><i class="fa fa-phone fa-2x"></i>&nbsp&nbsp800 123 4567 </li><hr>
+						<li><i class="fa fa-envelope fa-2x"></i>&nbsp&nbspinfo@iTruckDispatcher.net</li>
+					</ul>
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="sub-footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						&copy; 2019 <a target="_blank" href="home" title="Logistics is our business">iTruckDispatchier</a>. All Rights Reserved.
+					</div>
+					<div class="col-md-6">
+						<ul class="pull-right">
+							<li><a href="home">Home</a></li>
+							<li><a href="about">About</a></li>
+							<li><a href="resources">Resources</a></li>
+							<li><a href="news">News</a></li>
+							<li><a href="contact">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="pull-right">
+					<a href="#home" class="scrollup"><i class="fa fa-angle-up fa-3x"></i></a>
+				</div>
+			</div>
+		</div>		
+	</footer>
+   
+	<!--SCRIPTS-->
+	<script src="/dependencies/sails.io.js"></script>
+	<script src="/js/bootstrap.js"></script>
+	<script src="/js/bootstrap.min.js"></script>
+	<script src="/js/component.js"></script>
+	<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="/js/functions.js"></script>
+	<script src="/js/jquery-2.1.1.min.js"></script>
+	<script src="/js/jquery.bxslider.min.js"></script>
+	<script src="/js/jquery.easing.1.3.js"></script>
+	<script src="/js/jquery.isotope.min.js"></script>
+	<script src="/js/jquery.prettyPhoto.js"></script>
+	<script src="/js/wow.min.js"></script>
+	<!--SCRIPTS END-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->	
+    <script src="/js/jquery-2.1.1.min.js"></script>	
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/js/bootstrap.min.js"></script>
+	<script src="/js/wow.min.js"></script>
+	<script src="/js/fancybox/jquery.fancybox.pack.js"></script>
+	<script src="/js/jquery.easing.1.3.js"></script>
+	<script src="/js/jquery.bxslider.min.js"></script>
+	<script src="/js/jquery.prettyPhoto.js"></script>
+	<script src="/js/jquery.isotope.min.js"></script> 
+	<script src="/js/functions.js"></script>
+	<script>
+	wow = new WOW(
+	 {
+	
+		}	) 
+		.init();
+	</script>
+	<!--STYLES-->
+	<link rel="stylesheet" href="/styles/animate.css">
+	<link rel="stylesheet" href="/styles/animate.min.css">
+	<link rel="stylesheet" href="/styles/bootstrap-theme.css">
+	<link rel="stylesheet" href="/styles/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="/styles/bootstrap.css">
+	<link rel="stylesheet" href="/styles/bootstrap.min.css">
+	<link rel="stylesheet" href="/styles/font-awesome.css">
+	<link rel="stylesheet" href="/styles/font-awesome.min.css">
+	<link rel="stylesheet" href="/styles/isotope.css">
+	<link rel="stylesheet" href="/styles/jquery.bxslider.css">
+	<link rel="stylesheet" href="/styles/overwrite.css">
+	<link rel="stylesheet" href="/styles/prettyPhoto.css">
+	<link rel="stylesheet" href="/styles/style.css">
+	<!--STYLES END-->
+  </body>
 </html>
-

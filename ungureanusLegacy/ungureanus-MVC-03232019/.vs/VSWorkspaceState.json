@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\config",
+    "\\views",
+    "\\views\\layouts",
+    "\\views\\pages"
+  ],
+  "SelectedNode": "\\views\\pages\\aboutpage.ejs",
+  "PreviewInSolutionExplorer": false
+}
